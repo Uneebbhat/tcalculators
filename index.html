@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/phone.css" />
+    <link rel="stylesheet" href="utils/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Tcalculators | Home</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__wrapper flex align-center justify-between">
+        <div class="left">
+          <a href="index.html" class="flex align-center">
+            <img src="assets/logo.svg" alt="TC" />
+            <h3>Tcalculator</h3>
+          </a>
+        </div>
+        <div class="header__right flex align-center">
+          <img src="assets/search.svg" alt="" />
+          <input
+            type="text"
+            class="search"
+            placeholder="Search from 240 calculators"
+          />
+        </div>
+      </div>
+    </header>
+
+    <section class="hero__section">
+      <div class="hero__section-wrapper flex align-center justify-between">
+        <div class="hero__left">
+          <div class="hero__logo flex align-center">
+            <img src="assets/logo.svg" alt="" />
+            <h1 class="bold">Tcalculators</h1>
+          </div>
+          <p>Provides free calculators fro everything.</p>
+          <div class="hero__search flex align-center">
+            <img src="assets/search.svg" alt="" />
+            <input type="text" placeholder="Search from 240 calculators" />
+          </div>
+        </div>
+        <div class="hero__right">
+          <div class="calculator">
+            <input type="text" id="display" />
+            <div class="keypad">
+              <button class="operator">+</button>
+              <button class="operator">-</button>
+              <button class="operator">*</button>
+              <button class="operator">/</button>
+              <button class="cal-btns">6</button>
+              <button class="cal-btns">7</button>
+              <button class="cal-btns">8</button>
+              <button class="cal-btns">9</button>
+              <button class="cal-btns">2</button>
+              <button class="cal-btns">3</button>
+              <button class="cal-btns">4</button>
+              <button class="cal-btns">5</button>
+              <button class="cal-btns">1</button>
+              <button class="cal-btns">0</button>
+              <button class="cal-btns" id="clear">C</button>
+              <button class="cal-btns" id="calculate">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script src="js/script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/3f6fe9be9b.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
