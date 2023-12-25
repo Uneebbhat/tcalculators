@@ -23,15 +23,32 @@
           </a>
         </div>
         <div class="header__right flex align-center">
-          <img src="assets/search.svg" alt="" />
-          <input
-            type="text"
-            class="search"
-            placeholder="Search from 240 calculators"
+          <nav class="desk__nav">
+            <ul class="flex">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">FAQ's</a></li>
+            </ul>
+          </nav>
+          <img
+            src="assets/menu.svg"
+            alt="menu"
+            class="menu"
+            onclick="toggleHide()"
           />
         </div>
       </div>
     </header>
+
+    <div class="mob__nav">
+      <nav class="mob__nav-wrapper">
+        <ul class="flex col align-center justify-center">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQ's</a></li>
+        </ul>
+      </nav>
+    </div>
 
     <section class="hero__section">
       <div class="hero__section-wrapper flex align-center justify-between">
