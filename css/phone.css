@@ -12,6 +12,10 @@
     flex-direction: column;
     gap: 20px;
   }
+
+  .home__about-section {
+    padding: 50px 20px;
+  }
 }
 
 @media screen and (max-width: 576px) {
