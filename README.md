@@ -19,16 +19,19 @@ This project is a collection of various calculators designed to perform tasks li
 
 ### Installation
 1. Clone this repository:
-2.     - git clone https://github.com/Uneebbhat/tcalculators.git
+2.     git clone https://github.com/Uneebbhat/tcalculators.git
 3. 2. Open the project folder.
 ## Folder Structure
 css/
 style.css
 phone.css
+
 utils/
 global.css
+
 js/
 script.js
+
 index.html
 ## Usage
 1. Open `index.html` in a web browser.
